@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>API FETCH</title>
+  <link rel="stylesheet" href="Api.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📞 Phonebook App</h1>
+
+    <div class="form">
+      <input type="text" id="name" placeholder="Name" required />
+      <input type="mobilenumber" id="phone" placeholder="Phone Number" required pattern="[0-9]{10}"/>
+      <button onclick="addContact()">Add Contact</button>
+    </div>
+
+    <input type="text" id="search" 
+    placeholder="Search by name or phone" 
+    oninput="searchContact()"/>
+
+    <ul id="contactList"></ul>
+  </div>
+
+  <script src="./Api.js"></script>
+</body>
+</html>
