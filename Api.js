@@ -9,33 +9,33 @@ async function fetchContacts() {
     // Add your own contacts manually
     contacts.push(
       { id: Date.now() + 1, name: "A. Mohammed Yasar", phone:"+9876543210" },
-      { id: Date.now() + 2, name: "ShruthiRanjani(sis)", phone:"+9123456789" },
+      { id: Date.now() + 2, name: "Shruthi Ranjani(sis)", phone:"+9123456789" },
       { id: Date.now() + 3, name: "Sridar(bro)", phone:"+9123456789" },
-      { id: Date.now() + 4, name: "DhanushKrishnan(bro)", phone:"+9123456789" },
+      { id: Date.now() + 4, name: "Dhanush Krishnan(bro)", phone:"+9123456789" },
       { id: Date.now() + 5, name: "Karthick(bro) ", phone:"+9123456789" },
       { id: Date.now() + 6, name: "Aravind(bro)", phone:"+9123456789" },
       { id: Date.now() + 20, name: "Gokulnath(bro)", phone:"+9123456789" },
-      { id: Date.now() + 7, name: "JenifaThomas(bro)", phone:"+9123456789" },
+      { id: Date.now() + 7, name: "Jenifa Thomas (bro)", phone:"+9123456789" },
       { id: Date.now() + 8, name: "Jaya Kumar(bro)", phone:"+9123456789" },
-      { id: Date.now() + 20, name: "KurshidhaBegam(sis)", phone:"+9123456789" },
-      { id: Date.now() + 20, name: "JeyaLakshmi(sis)", phone:"+9123456789" },
-      { id: Date.now() + 20, name: "MurhuLakshmi(sis)", phone:"+9123456789" },
+      { id: Date.now() + 20, name: "Kurshidha Begam(sis)", phone:"+9123456789" },
+      { id: Date.now() + 20, name: "Jeya Lakshmi(sis)", phone:"+9123456789" },
+      { id: Date.now() + 20, name: "Murhu Lakshmi(sis)", phone:"+9123456789" },
       { id: Date.now() + 20, name: "Sherly(sis)", phone:"+9123456789" },
-      { id: Date.now() + 20, name: "MymoonAfrin(sis)", phone:"+9123456789" },
-      { id: Date.now() + 20, name: "GunaSundhari(sis)", phone:"+9123456789" },
+      { id: Date.now() + 20, name: "Mymoon Afrin(sis)", phone:"+9123456789" },
+      { id: Date.now() + 20, name: "Guna Sundhari(sis)", phone:"+9123456789" },
       { id: Date.now() + 20, name: "Jenitha(sis)", phone:"+9123456789" },
       { id: Date.now() + 9, name: "Arun(bro)", phone:"+9123456789" },
       { id: Date.now() + 10, name: "Vasanth(bro)", phone:"+9123456789" },
-      { id: Date.now() + 11, name: "JayaMurthi(bro)", phone:"+9123456789" },
+      { id: Date.now() + 11, name: "Jaya Murthi(bro)", phone:"+9123456789" },
       { id: Date.now() + 12, name: "Jenifer(bro)", phone:"+9123456789" },
       { id: Date.now() + 13, name: "Pothiraj(bro)", phone:"+9123456789" },
-      { id: Date.now() + 14, name: "SelvaKumar(bro) ", phone:"+9123456789" },
+      { id: Date.now() + 14, name: "Selva Kumar(bro) ", phone:"+9123456789" },
       { id: Date.now() + 15, name: "Yogesh(bro)", phone:"+9123456789" },
       { id: Date.now() + 16, name: "Sujin(bro)", phone:"+9123456789" },
       { id: Date.now() + 17, name: "Sugesh(bro)", phone:"9123456789" },
-      { id: Date.now() + 18, name: "RajKumar(bro)", phone:"9123456789" },
+      { id: Date.now() + 18, name: "Raj Kumar(bro)", phone:"9123456789" },
       { id: Date.now() + 19, name: "Sudha(bro)", phone:"+9123456789" },
-      { id: Date.now() + 20, name: "RajKumar(bro)", phone:"+9123456789" }
+      { id: Date.now() + 20, name: "Raj Kumar(bro)", phone:"+9123456789" }
     );
     renderContacts(contacts); // Show contacts on screen
   } catch (error) {
@@ -126,4 +126,5 @@ function searchContact() {
 
 // Load contact list automatically when page opens
 window.onload = fetchContacts;
+
 
